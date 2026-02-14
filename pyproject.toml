@@ -1,0 +1,17 @@
+[project]
+name = "florafactor"
+version = "0.1.0"
+description = "A greenspace quantifier engine for urban spaces."
+authors = [
+    {name = "Dawson McCall",email = "dawsonmccall62@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.0.0,<4.0.0)",
+    "earthengine-api (>=1.7.13,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
